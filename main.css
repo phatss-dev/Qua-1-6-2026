@@ -246,7 +246,7 @@ html, body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    text-shadow: 0 0 20px white;
+    text-shadow: 0 0 5px white;
     animation: appearTitle 2s linear 3.1s forwards, floatingWords 4s ease-in-out infinite;
     
 }
