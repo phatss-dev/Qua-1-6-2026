@@ -1,3 +1,4 @@
+const bgMusic = document.getElementById("bgMusic");
 // Thay đổi nội dung búc thư ở đây
 var letterContent = "HÔM NAY LÀ 1/6 LÀ NGÀY QUỐC TẾ THIẾU NHI DO VỢ LÈ EM BÉ CỦA ANH NÊN ANH LÀM BỨC THƯ NÌ ẠA. ANH CHÚC BÉ IU CỦA ANH 1/6 THẬT NHÌU NIỀM VUI, THẬT NHIỀU TIẾNG CƯỜI VÀ THẬT NHÌU QUÀ NHAA! MONG BÉ IU LUÔN XINHH XẮN, ĐÁNG IU, NGOAN NGOÃN VÀ MŨI NGÀY ĐỀU TRÀN NGẬP HẠNH PHÚC. CHÚC BÉ IU LUÔN ĐẠT ĐƯỢC THÀNH CÔNG TRONG HỌC TẬP CŨNG NHƯ CUỘC SỐNG ẠAA! 🎁🎈🎉"
 
