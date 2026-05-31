@@ -25,10 +25,15 @@ window.addEventListener("load", () => {
 })
 
 var openBtn = document.querySelector(".openBtn")
+
 openBtn.addEventListener("click", () => {
-    document.querySelector(".cardValentine").classList.add("active")
-    document.querySelector(".container").classList.add("close")
-})
+    if (bgMusic) {
+        bgMusic.play().catch(() => {});
+    }
+
+    document.querySelector(".cardValentine").classList.add("active");
+    document.querySelector(".container").classList.add("close");
+});
 
 var cardValentine = document.querySelector(".cardValentine")
 
@@ -43,12 +48,3 @@ cardValentine.addEventListener("click", () => {
         }, 1000)
     }
 })
-const bgMusic = document.getElementById("bgMusic");
-
-var openBtn = document.querySelector(".openBtn")
-openBtn.addEventListener("click", () => {
-    bgMusic.play();
-
-    document.querySelector(".cardValentine").classList.add("active");
-    document.querySelector(".container").classList.add("close");
-});
