@@ -280,8 +280,8 @@ html, body {
 
 .cloudBtn {
     position: relative;
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
     background-color: #fc6885;
     border-radius: 50%;
     box-shadow: 60px 0 #fc6885, 120px 0 #fc6885, 180px 0 #fc6885, 240px 0 #fc6885,
