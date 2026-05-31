@@ -309,16 +309,29 @@ html, body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 100%;
-    height: 100%;
+
+    width: 90%;
+    height: 80%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    white-space: normal;
+
     font-family: "Chewy", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 40px;
+    font-size: 28px;
+    line-height: 1.2;
+
     color: #fc6885;
     background-color: transparent;
     border: none;
-    text-shadow: 0 0 10px pink;
+
+    text-shadow: 0 0 5px pink;
+    }
 }
 
 .openBtn:hover {
